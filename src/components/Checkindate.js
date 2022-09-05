@@ -16,7 +16,9 @@ const Checkindate = () => {
         className="dropdown-btn w-full text-left"
       >
         <div>
-          <div className="text-[15px] font-medium leading-tight">When</div>
+          <div className="text-[15px] font-medium leading-tight">
+            When (any)
+          </div>
           <div className="text-[13px]">Select Move-inDate</div>
         </div>
         {isOpen ? (

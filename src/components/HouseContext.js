@@ -9,12 +9,12 @@ export const HouseContext = createContext();
 // provider
 const HouseContextProvider = ({ children }) => {
   const [houses, setHouses] = useState(housesData);
-  const [country, setCountry] = useState("Location");
+  const [country, setCountry] = useState("Location (any)");
   const [countries, setCountries] = useState([]);
-  const [property, setProperty] = useState("Property type");
+  const [property, setProperty] = useState("Property type (any)");
   const [properties, setProperties] = useState([]);
   const [date, setDate] = useState("Select Move-inDate");
-  const [price, setPrice] = useState("Price range");
+  const [price, setPrice] = useState("Price range (any)");
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
